@@ -2,6 +2,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 </style>
 
+
+// * determina o que todo o corpo terá
 * {
+    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+
+a, a:hover{
+    text-align: right;
+    color: unset;
+    text-decoration: none;
+
+}
+
+header{
+    background-color: #4D41C0;
+    color: #FFFFFF;
+}
+
+html, body{
+    background-color: #E8E8E8
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
