@@ -1,8 +1,6 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
-</style>
+<style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
-:root {
+</style>:root {
     --color-primary: #4D41C0;
     --bg-gray: #e8e8e8;
     --bs-white: #fff;
@@ -24,10 +22,9 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0px;
 }
 
-.dsmovie-contato-container{
+.dsmovie-contato-container {
     display: flex;
     align-items: center;
-
 }
 
 .dsmovie-contato-container img {
@@ -46,7 +43,7 @@ html, body {
     background-color: #e8e8e8;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -63,12 +60,11 @@ nav a {
 }
 
 .dsmovie-card {
-    width: 360px;
-
+    width: 100%;
 }
 
 .dsmovie-card img {
-    border-radius: 8px 8px 0 0 ;
+    border-radius: 8px 8px 0 0;
     width: 100%;
 }
 
@@ -87,7 +83,7 @@ nav a {
     font-size: 14px;
 }
 
-.dsmovie-btn , .dsmovie-btn:hover {
+.dsmovie-btn, .dsmovie-btn:hover {
     width: 180px;
     height: 40px;
     background-color: #4D41C0;
@@ -101,6 +97,6 @@ nav a {
     border-radius: 4px;
 }
 
-#dsmovie-card-list{
+#dsmovie-card-list {
     padding: 40px 0;
 }
