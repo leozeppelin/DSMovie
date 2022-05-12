@@ -3,9 +3,10 @@
 </style>
 
 :root {
-    --bg-gray: #E8E8E8;
     --color-primary: #4D41C0;
+    --bg-gray: #e8e8e8;
     --bs-white: #fff;
+    --text-gray: #4a4a4a;
 }
 
 * {
@@ -35,14 +36,14 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     background-color: #4D41C0;
-    color: var(--bs-white);
+    color: #fff;
     height: 60px;
     display: flex;
     align-items: center;
 }
 
 html, body {
-    background-color: var(--bg-gray);
+    background-color: #e8e8e8;
 }
 
 nav{
@@ -59,4 +60,47 @@ nav h1 {
 nav a {
     font-size: 12px;
     font-weight: 400;
+}
+
+.dsmovie-card {
+    width: 360px;
+
+}
+
+.dsmovie-card img {
+    border-radius: 8px 8px 0 0 ;
+    width: 100%;
+}
+
+.dsmovie-card-description {
+    background-color: var(--bs-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0 20px 0;
+    border-radius: 0 0 8px 8px;
+}
+
+.dsmovie-card-description h3 {
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.dsmovie-btn , .dsmovie-btn:hover {
+    width: 180px;
+    height: 40px;
+    background-color: #4D41C0;
+    color: var(--bs-white);
+    font-weight: 700;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+#dsmovie-card-list{
+    padding: 40px 0;
 }
